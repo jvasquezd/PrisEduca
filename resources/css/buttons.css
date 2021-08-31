@@ -1,0 +1,20 @@
+.btn {
+    @apply inline-block text-center text-sm bg-gray-200 text-gray-500 font-bold py-2 px-4 rounded-lg cursor-pointer;
+}
+
+.btn-block{
+    @apply block text-center w-full;
+}
+.btn-primary {
+    @apply bg-blue-500 text-white;
+}
+.btn-primary:hover {
+    @apply bg-blue-700;
+}
+
+.btn-danger {
+    @apply bg-red-500 text-white;
+}
+.btn-danger:hover {
+    @apply bg-red-700;
+}
